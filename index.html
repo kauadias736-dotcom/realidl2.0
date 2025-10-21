@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Real I.D.L. — Início</title>
+  <meta name="description" content="Real I.D.L. — Time oficial de futsal. Notícias, elenco, calendário e loja." />
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Anton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><span class="badge">RIDL</span><span class="text">Real I.D.L.</span></a>
+      <nav class="main-nav" aria-label="Menu principal">
+        <ul>
+          <li><a href="index.html" class="active">Início</a></li>
+          <li><a href="history.html">História</a></li>
+          <li><a href="team.html">Elenco</a></li>
+          <li><a href="schedule.html">Jogos</a></li>
+          <li><a href="gallery.html">Galeria</a></li>
+          <li><a href="fans.html">Torcida</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="btn btn-outline" onclick="location.href='shop.html'">Loja</button>
+        <button class="btn btn-primary">Seja Sócio</button>
+        <button class="menu-btn btn" aria-label="Abrir menu" onclick="toggleMobile()"><i class="bi bi-list"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="left">
+        <h1>Real I.D.L.</h1>
+        <p class="lead">Futsal com garra e técnica — fundado em 2021</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="team.html">Conheça o time</a>
+          <a class="btn btn-outline" href="schedule.html">Próximos jogos</a>
+        </div>
+        <div class="card-grid">
+          <article class="card"><img src="images/IMG-20251016-WA0005.jpg" alt=""><div class="card-content"><h3>Vitória</h3><p class="muted">Melhores momentos</p></div></article>
+          <article class="card"><img src="images/IMG-20251016-WA0006.jpg" alt=""><div class="card-content"><h3>Treino</h3><p class="muted">Preparação</p></div></article>
+          <article class="card"><img src="images/IMG-20251016-WA0008.jpg" alt=""><div class="card-content"><h3>Conquista</h3><p class="muted">3º lugar 2025</p></div></article>
+        </div>
+        <div class="stats">
+          <div class="stat"><div class="num">15+</div><div class="label">Jogadores</div></div>
+          <div class="stat"><div class="num">02</div><div class="label">Troféus</div></div>
+          <div class="stat"><div class="num">35</div><div class="label">Gols (2025)</div></div>
+        </div>
+      </div>
+      <div class="media">
+        <div class="hero-media"><img src="images/hero.jpg" alt="Time em ação"></div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <h2>Galeria</h2>
+      <p class="muted">Momentos, bastidores e torcida.</p>
+      <div class="masonry">
+        <img src="images/IMG-20251016-WA0005.jpg" alt="Jogo" onclick="openLightbox(this)">
+        <img src="images/IMG-20251016-WA0006.jpg" alt="Treino" onclick="openLightbox(this)">
+        <img src="images/IMG-20251016-WA0008.jpg" alt="Conquista" onclick="openLightbox(this)">
+        <img src="images/player1.jpg" alt="Jogador" onclick="openLightbox(this)">
+      </div>
+    </section>
+
+    <section class="players-section">
+      <h2>Nosso Elenco</h2>
+      <p class="muted">Craques que vestem nossa camisa.</p>
+      <div class="players">
+        <div class="player"><img src="images/player1.jpg" alt="Dudu"><h4>Dudu <small class="muted">• Goleiro</small></h4><p class="muted">Número 1 — 20 jogos</p></div>
+        <div class="player"><img src="images/player2.jpg" alt="Kauã"><h4>Kauã <small class="muted">• Ala</small></h4><p class="muted">Artilheiro — 10 gols</p></div>
+        <div class="player"><img src="images/player3.jpg" alt="Tiago"><h4>Tiago <small class="muted">• Fixo</small></h4><p class="muted">Líder defensivo</p></div>
+        <div class="player"><img src="images/player4.jpg" alt="Bruno"><h4>Bruno <small class="muted">• Pivô</small></h4><p class="muted">Pivot agressivo</p></div>
+      </div>
+    </section>
+
+    <section class="newsletter center">
+      <h3>Fique por dentro</h3>
+      <p class="muted">Receba notícias, promoções e ingressos exclusivos.</p>
+      <form id="newsletter-form" class="center">
+        <input type="email" name="email" required placeholder="Seu melhor e-mail">
+        <button class="btn btn-primary" type="submit">Inscrever</button>
+      </form>
+      <div id="newsletter-msg" class="muted"></div>
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()"><img id="lightbox-img" src="" alt=""></div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="col"><strong>Real I.D.L.</strong><p class="muted">Tradição e excelência em futsal desde 2021.</p><div class="socials"><a href="#">IG</a> <a href="#">YT</a></div></div>
+        <div class="col"><h4>Links</h4><ul><li><a href="index.html">Início</a></li><li><a href="team.html">Elenco</a></li><li><a href="schedule.html">Jogos</a></li><li><a href="shop.html">Loja</a></li></ul></div>
+        <div class="col"><h4>Contato</h4><p class="muted">contato@realidl.com.br<br>(11) 99999-9999</p></div>
+      </div>
+      <div class="copyright">&copy; 2025 Real I.D.L. — Todos os direitos reservados.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
