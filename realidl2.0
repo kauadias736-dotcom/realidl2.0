@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Nossa História | Real I.D.L.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Anton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><span class="badge">RIDL</span><span class="text">Real I.D.L.</span></a>
+      <nav class="main-nav"><ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="history.html" class="active">História</a></li>
+        <li><a href="team.html">Elenco</a></li>
+        <li><a href="schedule.html">Jogos</a></li>
+        <li><a href="gallery.html">Galeria</a></li>
+        <li><a href="fans.html">Torcida</a></li>
+      </ul></nav>
+      <div class="header-actions"><button class="btn btn-outline" onclick="location.href='shop.html'">Loja</button></div>
+    </div>
+  </header>
+  <main class="container" style="padding-top:110px">
+    <section><h1>Nossa História</h1>
+<div class="timeline">
+  <article><strong>2021</strong><p>Fundação do clube — paixão pelo futsal.</p></article>
+  <article><strong>2024</strong><p>Primeiro pódio: 3º lugar no Interclasse.</p></article>
+  <article><strong>2025</strong><p>Consolidação e crescimento.</p></article>
+</div>
+</section>
+  </main>
+  <footer class="site-footer"><div class="container"><p style="color:#cfcfcf">&copy; 2025 Real I.D.L.</p></div></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Real I.D.L. — Início</title>
+  <meta name="description" content="Real I.D.L. — Time oficial de futsal. Notícias, elenco, calendário e loja." />
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Anton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><span class="badge">RIDL</span><span class="text">Real I.D.L.</span></a>
+      <nav class="main-nav" aria-label="Menu principal">
+        <ul>
+          <li><a href="index.html" class="active">Início</a></li>
+          <li><a href="history.html">História</a></li>
+          <li><a href="team.html">Elenco</a></li>
+          <li><a href="schedule.html">Jogos</a></li>
+          <li><a href="gallery.html">Galeria</a></li>
+          <li><a href="fans.html">Torcida</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="btn btn-outline" onclick="location.href='shop.html'">Loja</button>
+        <button class="btn btn-primary">Seja Sócio</button>
+        <button class="menu-btn btn" aria-label="Abrir menu" onclick="toggleMobile()"><i class="bi bi-list"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="left">
+        <h1>Real I.D.L.</h1>
+        <p class="lead">Futsal com garra e técnica — fundado em 2021</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="team.html">Conheça o time</a>
+          <a class="btn btn-outline" href="schedule.html">Próximos jogos</a>
+        </div>
+        <div class="card-grid">
+          <article class="card"><img src="images/IMG-20251016-WA0005.jpg" alt=""><div class="card-content"><h3>Vitória</h3><p class="muted">Melhores momentos</p></div></article>
+          <article class="card"><img src="images/IMG-20251016-WA0006.jpg" alt=""><div class="card-content"><h3>Treino</h3><p class="muted">Preparação</p></div></article>
+          <article class="card"><img src="images/IMG-20251016-WA0008.jpg" alt=""><div class="card-content"><h3>Conquista</h3><p class="muted">3º lugar 2025</p></div></article>
+        </div>
+        <div class="stats">
+          <div class="stat"><div class="num">15+</div><div class="label">Jogadores</div></div>
+          <div class="stat"><div class="num">02</div><div class="label">Troféus</div></div>
+          <div class="stat"><div class="num">35</div><div class="label">Gols (2025)</div></div>
+        </div>
+      </div>
+      <div class="media">
+        <div class="hero-media"><img src="images/hero.jpg" alt="Time em ação"></div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <h2>Galeria</h2>
+      <p class="muted">Momentos, bastidores e torcida.</p>
+      <div class="masonry">
+        <img src="images/IMG-20251016-WA0005.jpg" alt="Jogo" onclick="openLightbox(this)">
+        <img src="images/IMG-20251016-WA0006.jpg" alt="Treino" onclick="openLightbox(this)">
+        <img src="images/IMG-20251016-WA0008.jpg" alt="Conquista" onclick="openLightbox(this)">
+        <img src="images/player1.jpg" alt="Jogador" onclick="openLightbox(this)">
+      </div>
+    </section>
+
+    <section class="players-section">
+      <h2>Nosso Elenco</h2>
+      <p class="muted">Craques que vestem nossa camisa.</p>
+      <div class="players">
+        <div class="player"><img src="images/player1.jpg" alt="Dudu"><h4>Dudu <small class="muted">• Goleiro</small></h4><p class="muted">Número 1 — 20 jogos</p></div>
+        <div class="player"><img src="images/player2.jpg" alt="Kauã"><h4>Kauã <small class="muted">• Ala</small></h4><p class="muted">Artilheiro — 10 gols</p></div>
+        <div class="player"><img src="images/player3.jpg" alt="Tiago"><h4>Tiago <small class="muted">• Fixo</small></h4><p class="muted">Líder defensivo</p></div>
+        <div class="player"><img src="images/player4.jpg" alt="Bruno"><h4>Bruno <small class="muted">• Pivô</small></h4><p class="muted">Pivot agressivo</p></div>
+      </div>
+    </section>
+
+    <section class="newsletter center">
+      <h3>Fique por dentro</h3>
+      <p class="muted">Receba notícias, promoções e ingressos exclusivos.</p>
+      <form id="newsletter-form" class="center">
+        <input type="email" name="email" required placeholder="Seu melhor e-mail">
+        <button class="btn btn-primary" type="submit">Inscrever</button>
+      </form>
+      <div id="newsletter-msg" class="muted"></div>
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()"><img id="lightbox-img" src="" alt=""></div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="col"><strong>Real I.D.L.</strong><p class="muted">Tradição e excelência em futsal desde 2021.</p><div class="socials"><a href="#">IG</a> <a href="#">YT</a></div></div>
+        <div class="col"><h4>Links</h4><ul><li><a href="index.html">Início</a></li><li><a href="team.html">Elenco</a></li><li><a href="schedule.html">Jogos</a></li><li><a href="shop.html">Loja</a></li></ul></div>
+        <div class="col"><h4>Contato</h4><p class="muted">contato@realidl.com.br<br>(11) 99999-9999</p></div>
+      </div>
+      <div class="copyright">&copy; 2025 Real I.D.L. — Todos os direitos reservados.</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+Real I.D.L. — site modernizado
+Arquivos gerados:
+- index.html
+- history.html
+- team.html
+- gallery.html
+- schedule.html
+- fans.html
+- shop.html
+- css/style.css
+- js/main.js
+- images/ (cole suas imagens aqui, nomes usados no HTML: hero.jpg, IMG-20251016-WA0005.jpg, player1.jpg, player2.jpg, player3.jpg, player4.jpg, uniform-2025.jpg)
+
+Como usar:
+1. Faça upload dessas pastas/arquivos para o seu repositório GitHub (root).
+2. Ative o GitHub Pages para servir o site (branch: main, pasta: root).
+3. Substitua as imagens da pasta /images por suas fotos reais.
+4. Ajuste textos, cores em css/style.css conforme identidade do time.
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Calendário | Real I.D.L.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Anton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><span class="badge">RIDL</span><span class="text">Real I.D.L.</span></a>
+      <nav class="main-nav"><ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="history.html" class="active">História</a></li>
+        <li><a href="team.html">Elenco</a></li>
+        <li><a href="schedule.html">Jogos</a></li>
+        <li><a href="gallery.html">Galeria</a></li>
+        <li><a href="fans.html">Torcida</a></li>
+      </ul></nav>
+      <div class="header-actions"><button class="btn btn-outline" onclick="location.href='shop.html'">Loja</button></div>
+    </div>
+  </header>
+  <main class="container" style="padding-top:110px">
+    <section><h1>Calendário de Jogos</h1>
+<p class="muted">Próximos jogos e resultados.</p>
+<div class="matches-grid">
+  <article class="match-card"><strong>26 OUT</strong><p>Interclasse 2025 — Real I.D.L. vs Adversário — 15:00</p></article>
+</div>
+</section>
+  </main>
+  <footer class="site-footer"><div class="container"><p style="color:#cfcfcf">&copy; 2025 Real I.D.L.</p></div></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Loja | Real I.D.L.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Anton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><span class="badge">RIDL</span><span class="text">Real I.D.L.</span></a>
+      <nav class="main-nav"><ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="history.html" class="active">História</a></li>
+        <li><a href="team.html">Elenco</a></li>
+        <li><a href="schedule.html">Jogos</a></li>
+        <li><a href="gallery.html">Galeria</a></li>
+        <li><a href="fans.html">Torcida</a></li>
+      </ul></nav>
+      <div class="header-actions"><button class="btn btn-outline" onclick="location.href='shop.html'">Loja</button></div>
+    </div>
+  </header>
+  <main class="container" style="padding-top:110px">
+    <section><h1>Loja Oficial</h1>
+<p class="muted">Uniformes e produtos oficiais.</p>
+<div class="products-grid">
+  <article class="product-card" data-id="uniform-2025"><img src="images/uniform-2025.jpg" alt=""><h4>Uniforme 2025</h4><p class="muted">R$ 149,90</p></article>
+</div>
+</section>
+  </main>
+  <footer class="site-footer"><div class="container"><p style="color:#cfcfcf">&copy; 2025 Real I.D.L.</p></div></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Elenco | Real I.D.L.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Anton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><span class="badge">RIDL</span><span class="text">Real I.D.L.</span></a>
+      <nav class="main-nav"><ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="history.html" class="active">História</a></li>
+        <li><a href="team.html">Elenco</a></li>
+        <li><a href="schedule.html">Jogos</a></li>
+        <li><a href="gallery.html">Galeria</a></li>
+        <li><a href="fans.html">Torcida</a></li>
+      </ul></nav>
+      <div class="header-actions"><button class="btn btn-outline" onclick="location.href='shop.html'">Loja</button></div>
+    </div>
+  </header>
+  <main class="container" style="padding-top:110px">
+    <section><h1>Nosso Elenco</h1>
+<p class="muted">Conheça nossos jogadores e comissão técnica.</p>
+<div class="players">
+  <div class="player"><img src="images/player1.jpg" alt=""><h4>Dudu</h4><p class="muted">Goleiro</p></div>
+  <div class="player"><img src="images/player2.jpg" alt=""><h4>Kauã</h4><p class="muted">Ala</p></div>
+  <div class="player"><img src="images/player3.jpg" alt=""><h4>Tiago</h4><p class="muted">Fixo</p></div>
+</div>
+</section>
+  </main>
+  <footer class="site-footer"><div class="container"><p style="color:#cfcfcf">&copy; 2025 Real I.D.L.</p></div></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Torcida | Real I.D.L.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Anton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><span class="badge">RIDL</span><span class="text">Real I.D.L.</span></a>
+      <nav class="main-nav"><ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="history.html" class="active">História</a></li>
+        <li><a href="team.html">Elenco</a></li>
+        <li><a href="schedule.html">Jogos</a></li>
+        <li><a href="gallery.html">Galeria</a></li>
+        <li><a href="fans.html">Torcida</a></li>
+      </ul></nav>
+      <div class="header-actions"><button class="btn btn-outline" onclick="location.href='shop.html'">Loja</button></div>
+    </div>
+  </header>
+  <main class="container" style="padding-top:110px">
+    <section><h1>Torcida Real</h1>
+<p class="muted">Seja sócio torcedor e participe dos eventos.</p>
+<div class="plans-grid">
+  <article class="plan-card"><h3>PRATA</h3><p>R$ 19/mês</p></article>
+  <article class="plan-card featured"><h3>OURO</h3><p>R$ 29/mês</p></article>
+</div>
+</section>
+  </main>
+  <footer class="site-footer"><div class="container"><p style="color:#cfcfcf">&copy; 2025 Real I.D.L.</p></div></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Galeria | Real I.D.L.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Anton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><span class="badge">RIDL</span><span class="text">Real I.D.L.</span></a>
+      <nav class="main-nav"><ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="history.html" class="active">História</a></li>
+        <li><a href="team.html">Elenco</a></li>
+        <li><a href="schedule.html">Jogos</a></li>
+        <li><a href="gallery.html">Galeria</a></li>
+        <li><a href="fans.html">Torcida</a></li>
+      </ul></nav>
+      <div class="header-actions"><button class="btn btn-outline" onclick="location.href='shop.html'">Loja</button></div>
+    </div>
+  </header>
+  <main class="container" style="padding-top:110px">
+    <section><h1>Galeria</h1>
+<p class="muted">Fotos dos jogos, treinos e bastidores.</p>
+<div class="masonry">
+  <img src="images/IMG-20251016-WA0005.jpg" alt="Jogo" onclick="openLightbox(this)">
+  <img src="images/IMG-20251016-WA0006.jpg" alt="Treino" onclick="openLightbox(this)">
+  <img src="images/IMG-20251016-WA0008.jpg" alt="Conquista" onclick="openLightbox(this)">
+</div>
+</section>
+  </main>
+  <footer class="site-footer"><div class="container"><p style="color:#cfcfcf">&copy; 2025 Real I.D.L.</p></div></footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
